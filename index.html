@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>جارٍ التحويل...</title>
+  <script>
+    // غيّر الرابط ده للرابط اللي عايز تبعت الناس عليه
+    const targetURL = "https://example.com";
+
+    // تسجيل في الكونسول (مبدئيًا)
+    console.log("🔥 زيارة جديدة يوم: " + new Date().toLocaleString());
+
+    // تحويل تلقائي بعد ثانيتين
+    setTimeout(() => {
+      window.location.href = targetURL;
+    }, 2000);
+  </script>
+</head>
+<body>
+  <p style="font-size: 20px;">⏳ جارٍ تحويلك... لحظات</p>
+</body>
+</html>
